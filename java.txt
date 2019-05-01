@@ -1,0 +1,12 @@
+Encapsulation
+   การควบคุมการเข้าถึงข้อมูลของออบเจ็คจากภายนอก
+Inheritance
+  การสืบทอด  โดยที่คลาส สามารถสืบทอดสมาชิกมาจากคลาสหลัก(super class)
+Overriding Super Class
+ การเรียกใช้ class ทั้ง 2 ที่เหมือนกัน จาก การสืบทอด
+
+การเปิด  ORBInitialPort 
+start  tnameserv -ORBInitialPort 900
+
+
+
