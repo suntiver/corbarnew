@@ -1,0 +1,18 @@
+module CalculatorCorba
+{
+        interface CalculatorEngine
+        {
+
+            //Perform the calculations:plus/subtract/multiply/divide
+            double plus(in double val1, in double val2);
+            double subtract(in double val1, in double val2);
+            double multiply(in double val1, in double val2);
+            double divide(in double val1, in double val2);
+             //The Server EXITS when the Client prompts it to do so
+            oneway void shutdown();
+
+        };
+
+
+
+};

@@ -1,0 +1,11 @@
+module easyDBCorba
+{
+    interface dbEngine
+    {
+            //variber no is number 
+            string getName(in long no);
+            double getSalary(in long no);
+            void setSalary(in long no,in double newSalary);
+
+    };
+};
